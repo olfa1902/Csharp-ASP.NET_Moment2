@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="se">
+
+<head>
+    <title>@ViewData["Title"]</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/css/styles.css" type="text/css">
+</head>
+
+<body>
+    <header id="mainheader">
+        <div class="contain">
+            <h1 id="logo">DT102G</h1>
+
+            <ul>
+                <li><a asp-controller="Home" asp-action="Index">Startsidan</a></li>
+
+                <li><a asp-controller="Webdevelopment" asp-action="Index">Webbutveckling</a></li>
+
+                <li><a asp-controller="Home" asp-action="Filmlista">Filmlista</a></li>
+
+                <li><a asp-controller="Home" asp-action="Filmlistasession">Filmlista - session</a></li>
+            </ul>
+
+        </div>
+        <!-- /.contain -->
+    </header>
+
+
+    @RenderBody()
+
+    <footer>
+        <p>Laborationsuppgift för kursen DT084G, Introduktion till programmering med JavaScript.</p>
+    </footer>
+    </div>
+    <!-- /.container -->
+
+    <script src="~/js/main.js"></script>
+</body>
+
+</html>

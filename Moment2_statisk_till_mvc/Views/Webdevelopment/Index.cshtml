@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Moment2_statisk_till_mvc.Models.Courses>
+@{
+    ViewData["Title"] = "Webbutveckling";
+}
+<div class="courselist">
+    <h2>Hej! Välkommen till Undersidan Webbutveckling :)</h2>
+</div>
+
+@foreach (var course in Model)
+{
+<div class="courselist">
+    <a href="@course.CourseUrl">@course.CourseName</a>
+    <br />
+</div>
+}

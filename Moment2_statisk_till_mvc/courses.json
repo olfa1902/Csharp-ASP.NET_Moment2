@@ -1,0 +1,27 @@
+[
+  {
+    "Id": 1,
+    "CourseName": "Webbutveckling I",
+    "CourseUrl": "https://miun.se"
+  },
+  {
+    "Id": 2,
+    "CourseName": "Webbutveckling II",
+    "CourseUrl": "https://miun.se"
+  },
+  {
+    "Id": 3,
+    "CourseName": "Webbutveckling III",
+    "CourseUrl": "https://miun.se"
+  },
+  {
+    "Id": 4,
+    "CourseName": "Databaser",
+    "CourseUrl": "https://miun.se"
+  },
+  {
+    "Id": 5,
+    "CourseName": "Affarsplaner och Kommersialisering",
+    "CourseUrl": "https://miun.se"
+  }
+]
